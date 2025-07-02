@@ -6,9 +6,6 @@ Abstract—Superpixels are becoming increasingly essential in computer vision ap
 Fig. 1 The framework of the proposed RCFCMS. (a) Input image. (b) Region constraints from AMR-WT. (c) Initialize centers. (d) The highest membership heatmap. (e) The superpixel result.
 
 We utilize the AMR-WT to provide adaptive region constraints, effectively preventing forced cross-boundary segmentation, as depicted in Fig. 1(b). In each subregion, superpixel centers are initialized to maximize the distance from both the boundaries and other superpixel centers, resulting in a more uniform distribution of initialized centers, as shown in Fig. 1(c). Following this, FCM incorporating local information is employed to assign pixels within each subregion. Fig. 1(d) illustrates the heatmap of the highest membership values obtained from the FCM. Based on the membership intensities, the final superpixels are generated, as demonstrated in Fig. 1(d). It can be observed that RCFCMS inherits the prior contours from AMR-WT and exploits the fuzzy properties of FCM. Similar to SLIC, the region constraints enhance the execution efficiency of RCFCMS, while, like FLICM, the local information improves the noise immunity of RCFCMS.
-# ✨ Getting Start
-
-
 
 # 📚 Cite Us
 
