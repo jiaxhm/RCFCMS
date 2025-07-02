@@ -10,17 +10,14 @@ We utilize the AMR-WT to provide adaptive region constraints, effectively preven
 
 
 
-# Cite Us 📚 
+# 📚 Cite Us
 
-Please cite us if this work is helpful to you ✨
+✨ Please cite us if this work is helpful to you 
 
 ```bibtex
-@ARTICLE{10960337,
-  author={Xiaohong Jia, Yonghui Li, Jianjun Jiao, Yao Zhao, and Zhiwei Xia.},
-  journal={IEEE Signal Processing Letters}, 
-  title={SSMamba: Superpixel Segmentation With Mamba}, 
-  year={2025},
-  volume={32},
-  pages={1715-1719},
-  keywords={Convolutional neural network; Mamba; superpixel segmentation},
-  doi={10.1109/LSP.2025.3559425}}
+@ARTICLE{
+  author={Xiaohong Jia, Yao Zhao, Bin Zhang, Xuejun Zhang, and Guanghui Yan.},
+  journal={International Journal of Fuzzy Systems}, 
+  title={Fuzzy C-Means Clustering with Region Constraints for Superpixel Generation}, 
+  keywords={Fuzzy C-means clustering; Superpixel generation; Region constraints; Noise interference},
+  doi={10.1007/s40815-025-02017-w}}
